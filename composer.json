@@ -1,0 +1,23 @@
+{
+    "name": "control-alt-kaboom/srcre-project",
+    "description": "The Source-RE Project - Rethinking the practical usage and engineering of design patterns in modern applications.",
+  "license": "MIT",
+    "keywords": ["ControlAltKaboom", "Control-Alt-Kaboom", "Source-RE", "srcre", "Design Patterns"],
+    "authors": [
+        {
+            "name": "Brian Snopek",
+            "email": "brian.snopek@gmail.com"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "^3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ControlAltKaboom\\Srcre\\": "src"
+        }
+    }
+}
