@@ -16,9 +16,5 @@
 - Should provide a historical usage of the referenced patterns
 - Should allow for community discussion of the referenced patterns
 
-#
 > While the initial development of this project is for reference and example purposes, I believe that once developed it could be an interesting experiment to see how people respond to the content provided. 
  
-
-
-
