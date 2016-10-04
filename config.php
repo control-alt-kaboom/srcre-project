@@ -12,7 +12,6 @@ ini_set('display_errors', 1);
 # Load in Dependencies
 require_once __DIR__ ."/vendor/autoload.php";
 
-
 use ControlAltKaboom\Srcre\App\Config;
 use ControlAltKaboom\Srcre\App\Control;
 use ControlAltKaboom\Srcre\EventManager\EventDispatcher;
@@ -23,13 +22,14 @@ Config::instance()->setGroup("path",
     "tpl"  => __DIR__."/app/tpl",
   ]);
 
+// Initialize the Exception Handler
+require_once Config::instance()->get("path", "libs")."/Exception/autoload.php";
+
 
 // Initialize the EventManager
 $eventManager = new EventDispatcher();
 
 
-
-
 // Initialize the app
-Control::initialize();
+//Control::initialize();
 
